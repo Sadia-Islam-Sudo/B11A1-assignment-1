@@ -108,98 +108,273 @@
 } */
 
 .fira-sans-regular {
-    font-family: "Fira Sans", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .btn {
-    /* font-family: Fira Sans; */
-    color: rgba(0, 106, 80, 1);
-    border-radius: 8px;
-    border: 1px solid rgba(0, 106, 80, 1);
-    padding: 15px 30px 15px 30px;
-    font-weight: 600;
-    font-size: 18px;
+  /* font-family: Fira Sans; */
+  color: rgba(0, 106, 80, 1);
+  border-radius: 8px;
+  border: 1px solid rgba(0, 106, 80, 1);
+  padding: 15px 30px 15px 30px;
+  font-weight: 600;
+  font-size: 18px;
 
 }
 
 .navbd {
-    /* font-family: Fira Sans; */
-    font-size: 32px;
-    font-weight: 700;
-    color: rgba(14, 14, 14, 1);
+  /* font-family: Fira Sans; */
+  font-size: 32px;
+  font-weight: 700;
+  color: rgba(14, 14, 14, 1);
 }
 
 .nav-design {
-    /* font-family: Fira Sans; */
-    display: flex;
-    list-style: none;
-    justify-content: space-between;
-    padding: 24px 160px 24px 160px;
+  /* font-family: Fira Sans; */
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  padding: 24px 160px 24px 160px;
 
 }
 
 /* 1st tasks css */
+
 .banner {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 160px 80px 160px;
+  gap: 64;
 
 
-    border-radius: 24px;
-    background-color: rgba(198, 228, 214, 1);
-    padding: 20px 160px 80px 160px;
-    gap: 64px;
-
-    text-align: left;
-
-
+  /* align-items: center */
 
 
 
 }
 
+.banner-txt {
+  width: 622px;
+
+}
+
+
+
+
+
 .heading {
-    /* font-family: Fira Sans; */
-    color: rgba(14, 14, 14, 0.5);
-    font-size: 24px;
-    font-weight: 500;
-
-
+  /* font-family: Fira Sans; */
+  color: rgba(14, 14, 14, 0.5);
+  font-size: 24px;
+  font-weight: 500;
 
 }
 
 .text {
-    /* font-family: Fira Sans; */
-    color: rgba(14, 14, 14, 1);
-    font-weight: 700;
-    font-size: 56px;
-    text-align: left;
-    width: 622px;
-    height: 201px;
+
+  color: rgba(14, 14, 14, 1);
+  font-size: 56px;
+  font-weight: 700;
+
+  line-height: 100%;
+
 }
 
 .btn_style {
-    border-radius: 8px;
-    background-color: rgba(0, 106, 80, 1);
-    padding: 17px 34px 17px 34px;
-    color: rgba(255, 255, 255, 1);
-    font-size: 18px;
-    font-weight: 600;
-    border: none;
+  border-radius: 8px;
+  background-color: rgba(0, 106, 80, 1);
+  padding: 17px 34px 17px 34px;
+  color: rgba(255, 255, 255, 1);
+  font-size: 18px;
+  font-weight: 600;
+  border: none;
+  justify-content: center;
+
 
 }
 
 .bannerpic {
-    display: flex;
-    align-items: center;
+  width: 475px;
+  height: 400px;
+
 }
 
-.need {
-    margin: 20px 160px 80px 160px;
-    width: 1280px;
-    height: 560px;
-    display: flex;
-    flex-direction: row;
-    padding: 20px 160px 80px 160px;
-    justify-content: center;
-    align-items: center
+.secondary-bg {
+
+  border-radius: 24px;
+  background: rgba(198, 228, 214, 1);
+  padding: 80px 50px 80px 50px;
+
+
+
+
+}
+
+/* shared caption */
+.caption {
+  color: rgba(14, 14, 14, 1);
+  font-size: 40px;
+  font-weight: 700;
+  padding: 32px 160px;
+
+
+}
+
+/* Section-2 */
+.piller-card {
+
+  padding: 24px;
+  border-radius: 16px;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+  width: 302px;
+  height: 244px
+    /* gap: 24; */
+
+    /* margin: 0px 150px 80px 150px; */
+
+
+}
+
+
+.piller-title {
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 20px;
+  font-weight: 700;
+
+}
+
+.piller-description {
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+
+}
+
+.piller-conainer {
+  display: flex;
+
+  justify-content: space-between;
+  padding: 0px 160px 32px 160px;
+  gap: 24px;
+
+
+
+  /* margin: 0px 10px 80px 10px; */
+
+}
+
+/* section-3 */
+
+.vision-conainer {
+  display: flex;
+
+  justify-content: space-between;
+  padding: 0px 160px 32px 160px;
+  gap: 24px
+}
+
+.vision-card {
+  width: 410.67px;
+  height: 325px;
+  gap: 24;
+  padding: 32px;
+  border-radius: 16px;
+  background: rgba(84, 144, 245, 0.2);
+
+}
+
+.vision-title {
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.vision-description {
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 24px;
+  margin-top: 12px;
+
+}
+
+.btn-vision {
+  background-color: rgba(84, 144, 245, 1);
+  border-radius: 8px;
+  padding: 11px 20px 11px 20px;
+  color: rgba(255, 255, 255, 1);
+  font-size: 18px;
+  font-weight: 600;
+  border: none;
+  justify-content: center;
+  margin: 30px 150px 20px 5px;
+}
+
+.clr1 {
+  background-color: rgba(198, 228, 214, 1);
+
+}
+
+.clr2 {
+  background-color: rgba(247, 235, 207, 1);
+}
+
+.btn1 {
+  background: rgba(9, 161, 92, 1);
+  margin: 50px 150px 20px 5px;
+}
+
+.btn2 {
+  background-color: rgba(255, 194, 57, 1);
+  margin: 50px 150px 20px 5px;
+}
+
+/* section-3 */
+.card1 {
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 1);
+  padding: 48px 24px 48px 24px;
+  margin-left: 160px;
+  margin-right: 160px;
+  margin-top: 32px;
+
+
+}
+
+.card-p {
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 16px;
+  font-weight: 400;
+  /* display: flex;
+  align-items: center; */
+  /* position: absolute; */
+  /* display: inline-block; */
+}
+
+.needi {
+  position:absolute;
+  width: 64px;
+  height: 64px;
+  /* padding: 0px 50px 50px 0px;
+  margin-bottom: 100px; */
+
+
+
+}
+
+
+.card-h {
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.card-p2 {
+  color: rgba(14, 14, 14, 0.6);
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 400;
 }
