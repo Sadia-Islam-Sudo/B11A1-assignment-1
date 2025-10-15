@@ -217,7 +217,7 @@
   color: rgba(14, 14, 14, 1);
   font-size: 40px;
   font-weight: 700;
-  padding: 32px 160px;
+  padding: 24px 160px;
 
 
 }
@@ -355,7 +355,7 @@
 }
 
 .needi {
-  position:absolute;
+  position: absolute;
   width: 64px;
   height: 64px;
   /* padding: 0px 50px 50px 0px;
@@ -377,4 +377,152 @@
   font-family: Fira Sans;
   font-size: 16px;
   font-weight: 400;
+}
+
+/* section: 4 */
+table {
+  border-collapse: collapse;
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 1)
+}
+
+th,
+td {
+
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  background: rgba(255, 255, 255, 0.1);
+
+
+}
+
+.table1 {
+
+
+  width: 1560px;
+  height: 409px;
+
+  background: rgba(255, 255, 255, 1);
+  padding: 48px 24px 48px 24px;
+  margin-left: 160px;
+  margin-right: 160px;
+  margin-top: 32px;
+
+
+}
+
+
+
+.table-head {
+  width: 1216px;
+  height: 72px;
+  background-color: 1px solid rgba(14, 14, 14, 0.15);
+  background: rgba(198, 228, 214, 1);
+  font-size: 20px;
+  font-weight: 600;
+
+
+
+}
+
+.tbody-s {
+  font-size: 16px;
+  font-weight: 600;
+  padding: 20px;
+
+
+
+}
+
+.tbody-t {
+  border: 1px solid rgba(14, 14, 14, 1);
+  border-radius: 4px;
+  background: rgba(198, 228, 214, 1);
+  width: 152px;
+  height: 44px;
+  justify-content: center;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+
+
+}
+
+.right-bar {
+  text-align: center;
+}
+
+.thead-t {
+  text-align: start;
+  padding: 20px;
+}
+
+/* section-5 */
+.new {
+  margin-bottom: ;
+}
+
+.sec-5p {
+  margin-left: 160px;
+  margin-right: 150px;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 70px;
+}
+
+.sec-5p2 {
+  display: flex;
+  margin-left: 160px;
+  /* margin-right: 130px; */
+  width: 1450px;
+  height: 300px;
+  border-radius: 24px;
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+  padding: 48px;
+}
+
+.h-design {
+  font-size: 32px;
+  font-weight: 700;
+  padding-left: 40px;
+}
+
+.i-style {
+  width: 134px;
+  height: 40px;
+  padding-left: 40px;
+}
+
+.p-style {
+  color: rgba(14, 14, 14, 0.7);
+  padding-left: 40px;
+
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.b-style {
+  margin-left: 40px;
+  width: 139px;
+  height: 48px;
+  border-radius: 8px;
+  background: rgba(0, 106, 80, 1);
+  border: none;
+  color: rgba(255, 255, 255, 1);
+  font-size: 18px;
+  font-weight: 600;
+
+}
+
+.s-i-style {
+  border-radius: 24px;
+  width: 408px;
+  height: 306px;
+
+}
+
+.right-style {
+  
+  height: 306px;
+
 }
