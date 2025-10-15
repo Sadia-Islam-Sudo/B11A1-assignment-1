@@ -457,9 +457,7 @@ td {
 }
 
 /* section-5 */
-.new {
-  margin-bottom: ;
-}
+
 
 .sec-5p {
   margin-left: 160px;
@@ -471,21 +469,33 @@ td {
 
 .sec-5p2 {
   display: flex;
+
   margin-left: 160px;
-  /* margin-right: 130px; */
+
+
   width: 1450px;
   height: 300px;
   border-radius: 24px;
   background: rgba(255, 255, 255, 1);
   box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
   padding: 48px;
+
 }
+
+/* .sec-5p2-e{
+  gap:300px;
+
+} */
 
 .h-design {
   font-size: 32px;
   font-weight: 700;
   padding-left: 40px;
+  margin-top: 0px;
+  margin-bottom: 20px;
 }
+
+
 
 .i-style {
   width: 134px;
@@ -493,12 +503,27 @@ td {
   padding-left: 40px;
 }
 
-.p-style {
+
+
+.p-style1 {
   color: rgba(14, 14, 14, 0.7);
   padding-left: 40px;
 
   font-size: 16px;
   font-weight: 400;
+  display: flex;
+  gap: 20px;
+
+
+}
+
+.p-style2 {
+  color: rgba(14, 14, 14, 0.7);
+  padding-left: 40px;
+
+  font-size: 16px;
+  font-weight: 400;
+
 }
 
 .b-style {
@@ -511,6 +536,7 @@ td {
   color: rgba(255, 255, 255, 1);
   font-size: 18px;
   font-weight: 600;
+  margin-top: 30px;
 
 }
 
@@ -521,8 +547,38 @@ td {
 
 }
 
-.right-style {
-  
-  height: 306px;
+.new {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 24px;
+  margin-bottom: 24px;
+
+
+
+}
+
+.new-h {
+  padding-left: 0px;
+}
+
+.new-p {
+  padding-left: 0px;
+}
+
+.new-i {
+  padding-left: 0px;
+}
+
+.new-b {
+  margin-left: 0px;
+  width: 139px;
+  height: 48px;
+  border-radius: 8px;
+  background: rgba(0, 106, 80, 1);
+  border: none;
+  color: rgba(255, 255, 255, 1);
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 30px;
 
 }
